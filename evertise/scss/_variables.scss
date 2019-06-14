@@ -1,0 +1,33 @@
+/*=== fonts ====*/
+$pop: 'Poppins', sans-serif;
+$bas: 'Libre Baskerville', serif;
+$nun: 'Nunito Sans', sans-serif;
+$mon: 'Montserrat', sans-serif; // current body text
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Montserrat&display=swap');
+
+/*===== color palette (suggested) =====*/
+$purple: #7047f2; // primary
+$revenue_red: #EC4C77; // secondary
+$ftd_orange: #F0A028; // secondary
+$leads_brown: #91616A; // secondary
+$clickouts_green: #5BB59B; // secondary
+$impressions_grey: #051441; // secondary
+
+$h_dk:#051441; //headers
+$p-color:#677294; // paras
+
+// Mixins
+@mixin transition($property: all, $duration: 400ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
