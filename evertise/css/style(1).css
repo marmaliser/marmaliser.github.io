@@ -1,9 +1,17 @@
 /*----------------------------------------------------
+@File: Default Styles
+@Author: Md. Shahadat Hussain
+@URL: https://themeforest.net/user/droitthemes
+
 This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
 template.
 ---------------------------------------------------- */
 /*=====================================================================
+@Template Name: 
+@Author: Md. Shahadat Hussain
+@Developed By: Rony
+@Developer URL: https://themeforest.net/user/droitthemes
 
 @Default Styles
 
@@ -1917,17 +1925,11 @@ a, .btn, button {
       -webkit-transform: translateY(3rem);
       -ms-transform: translateY(3rem);
       transform: translateY(3rem);
-      -webkit-transition: opacity .5s .6s ease,
- -webkit-transform .5s .6s ease;
-      transition: opacity .5s .6s ease,
- -webkit-transform .5s .6s ease;
-      -o-transition: transform .5s .6s ease,
- opacity .5s .6s ease;
-      transition: transform .5s .6s ease,
- opacity .5s .6s ease;
-      transition: transform .5s .6s ease,
- opacity .5s .6s ease,
- -webkit-transform .5s .6s ease;
+      -webkit-transition: opacity .5s .6s ease, -webkit-transform .5s .6s ease;
+      transition: opacity .5s .6s ease, -webkit-transform .5s .6s ease;
+      -o-transition: transform .5s .6s ease, opacity .5s .6s ease;
+      transition: transform .5s .6s ease, opacity .5s .6s ease;
+      transition: transform .5s .6s ease, opacity .5s .6s ease, -webkit-transform .5s .6s ease;
       list-style: none;
       padding-left: 18%;
       padding-right: 100px;
@@ -2649,7 +2651,7 @@ a, .btn, button {
     top: 0;
     left: 0;
     position: absolute;
-    background: url("../images/startup_shap.png") no-repeat scroll center bottom/cover;
+    background: url("../img/new/startup_shap.png") no-repeat scroll center bottom/cover;
     z-index: -1; }
 
 .startup_content_three h2 {
