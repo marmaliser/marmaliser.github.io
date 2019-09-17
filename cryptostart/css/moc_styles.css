@@ -39,7 +39,7 @@ section.robot-intro img:hover {
       .price_tab .nav-item .nav-link {
         margin: 0px;
         font: 400 16px "Poppins", sans-serif;
-        color: #58CEA3;
+        color: #42cda4;
         padding: 12px 30px;
         display: inline-block;
         border: 0px;
@@ -99,7 +99,7 @@ section.robot-intro img:hover {
     .price_content .price_item p {
       font-size: 16px;
       line-height: 22px;
-      color: #58CEA3;
+      color: #42cda4;
       font-weight: 300;
       margin-bottom: 0px; }
     .price_content .price_item .price {
@@ -107,7 +107,7 @@ section.robot-intro img:hover {
       border-bottom: 1px solid #e9e9f4;
       padding: 33px 0px 30px; }
       .price_content .price_item .price sub {
-        color: #58CEA3;
+        color: #42cda4;
         bottom: 0; }
     .price_content .price_item .p_list {
       padding: 30px 0px 20px; }
@@ -247,14 +247,14 @@ section.robot-intro img:hover {
           height: 0;
           border-style: solid;
           border-width: 7px 0 7px 8px;
-          border-color: transparent transparent transparent #58CEA3;
+          border-color: transparent transparent transparent #42cda4;
           position: absolute;
           left: -2px;
           top: 50%;
           transform: translateY(-50%);
           opacity: 0; }
         .getting_started_tab .nav-item .nav-link.active {
-          border-left-color: #58CEA3;
+          border-left-color: #42cda4;
           font-weight: bold;
           color: #111; }
           .getting_started_tab .nav-item .nav-link.active:before {
@@ -312,7 +312,7 @@ section.robot-intro img:hover {
             margin-bottom: 0px;
             font-size: 14px;
             font-weight: 300;
-            color: #58CEA3; }
+            color: #42cda4; }
 
 
 /*============== FAQ Styles =============*/
@@ -329,7 +329,7 @@ section.robot-intro img:hover {
       margin: 0px; }
       .faq_tab .nav-item .nav-link {
         /* font: 400 16px/22px "Poppins", sans-serif; */
-        color: #58CEA3;
+        color: #42cda4;
         padding: 0px;
         border: 0px;
         border-radius: 0px;
@@ -393,7 +393,7 @@ section.robot-intro img:hover {
       color: #111; }
 
       .faq_content .tab-pane .card .card-header .btn .fa {
-          color: #58CEA3;
+          color: #42cda4;
       }
   
 /*====================================================*/
@@ -960,7 +960,7 @@ text-align: center; }
       .price_content .price_item .p_list li i {
         padding-right: 10px; }
       .price_content .price_item .p_list li .fa-check {
-        color: #58CEA3; }
+        color: #42cda4; }
       .price_content .price_item .p_list li .fa-close {
         color: #f0002d; }
   .price_content .price_item .price_btn {
@@ -975,7 +975,7 @@ text-align: center; }
     border-color: #ff0000;
     box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.14); }
     .price_content .price_item.pros:hover {
-      border-color: #58CEA3;
+      border-color: #42cda4;
       box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.14); }
 
 
@@ -990,7 +990,7 @@ text-align: center; }
     padding-top: -0.5em;
     top: -0em;
     left: -0.24em;
-    color: #58CEA3;
+    color: #42cda4;
     content: "\201C";
     z-index: 1;
 }
@@ -999,7 +999,7 @@ text-align: center; }
     padding: 2em;
     width: auto;
     border-radius: 12px;
-    border: 4px solid #58CEA3;
+    border: 4px solid #42cda4;
     box-shadow: 0px 4px 6px 0px rgba(0, 11, 40, 0.1);
 }
 .bubble p {
@@ -1027,7 +1027,7 @@ text-align: center; }
 }
 .bubble:before {
     bottom:-24px;
-    border-top-color: #58CEA3;
+    border-top-color: #42cda4;
     z-index:1;
 }
 .bubble-sig {
@@ -1104,13 +1104,13 @@ figure.snip1192 blockquote:after {
 figure.snip1192 blockquote:before {
   top: 35px;
   left: 20px;
-  color: #58CEA3;
+  color: #42cda4;
 }
 figure.snip1192 blockquote:after {
   content: "\201D";
   right: 20px;
   bottom: 35px;
-  color: #58CEA3;
+  color: #42cda4;
 }
 figure.snip1192 .author {
   margin: 0;
@@ -1159,7 +1159,7 @@ figure.snip1192 .author h5 span {
         color: #677294;
         transition: color 0.5s ease 0s; }
       .design_tab .nav-item .nav-link.active {
-        background-color: #58CEA3; }
+        background-color: #42cda4; }
         .design_tab .nav-item .nav-link.active h5, .design_tab .nav-item .nav-link.active p {
           color: #fff; }
 
@@ -1555,7 +1555,7 @@ textarea {
 }
 
 .child-pages__more a:hover {
-  color: #58CEA3
+  color: #42cda4
 }
 
 .child-pages__action-wrapper {
@@ -1569,8 +1569,8 @@ textarea {
 
 .child-pages__signup {
   margin-top: auto;
-  background: #58CEA3;
-  border-color: #58CEA3;
+  background: #42cda4;
+  border-color: #42cda4;
   width: 100%;
   text-align: center;
   border-radius: 0
