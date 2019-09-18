@@ -17,6 +17,12 @@ section.robot-intro img:hover {
   transition: all 0.3s linear;
 }
 
+/* WHAT IS */
+
+.list-group-item {
+  border: 1px solid #f8f8f8;
+}
+
 /*================= pricing_area css ==============*/
 .pricing_area {
     background: #fbfbfd; }
