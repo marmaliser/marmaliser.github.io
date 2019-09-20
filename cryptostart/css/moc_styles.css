@@ -1,3 +1,4 @@
+
 section {
     padding: 40px 0;
 }
@@ -10,11 +11,58 @@ section:nth-of-type(even) {
     background-color:#f8f8f8;
 }
 
+.section-title {
+  position: relative;
+  padding: 0 0 16px 0;
+    margin: 0 0 24px 0;
+  /* color: var(--primary); */
+}
+
+.section-title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 70%;
+  background: #dedede;
+}
+
+.section-title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 3px;
+  width: 12%;
+  background: #42cda4
+}
+
+.section-title--full:before {
+  width: 100%
+}
+
+.section-title--invert {
+  color: #fff;
+}
+
+.section-title--invert:after,.section-title--invert:before {
+  background:  #fff;
+}
+
+.section-title--invert:before {
+  opacity: .5
+}
 /* Robot Intro*/
 
 section.robot-intro img:hover {
   box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.14);
   transition: all 0.3s linear;
+}
+section.robot-intro {
+  /* background-image:url("https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/bitcoin2_ave7.svg"); */
+  background-position: bottom 250px;
+  background-repeat: no-repeat;
+  background-size: 600px;
 }
 
 /* WHAT IS */
@@ -81,7 +129,7 @@ section.robot-intro img:hover {
       transform: translateY(0px); }
   
   .price_content .price_item {
-    text-align: center;
+    text-align: left;
     background-color: white;
     box-shadow: 0px 4px 6px 0px rgba(0, 11, 40, 0.1);
     padding: 50px 50px 40px;
@@ -89,7 +137,20 @@ section.robot-intro img:hover {
     position: relative;
     overflow: hidden;
     transition: all 0.2s linear;
-    cursor: pointer; }
+    height: 524px;
+     }
+
+     .price_content .price_item h3 span {
+      padding-left: 50px;
+      font-size: 3rem;
+      position: relative;
+      top: 10px;
+      color: #42cda4;
+     }
+
+     .price_content .price_item h3 {
+      margin-top: -20px;
+     }
     .price_content .price_item .tag {
       position: absolute;
       font: 400 14px "Poppins", sans-serif;
@@ -126,7 +187,7 @@ section.robot-intro img:hover {
           color: #00aff0; }
         .price_content .price_item .p_list li .ti-close {
           color: #f0002d; }
-    .price_content .price_item .price_btn {
+    /* .price_content .price_item .price_btn {
       border-radius: 45px;
       color: #00aff0;
       border-color: #00aff0;
@@ -136,45 +197,10 @@ section.robot-intro img:hover {
         background: #00aff0; }
     .price_content .price_item:hover {
       border-color: #c9ebfa;
-      box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.14); }
+      box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.14); } */
   
   /*=================== pricing_area_two css ===============*/
-  .pricing_area_two {
-    background: #f6f7fa; }
-  
-  .price_content_two .price_item .tag {
-    background: #5f2eed; }
-  
-  .price_content_two .price_item .p_list li .ti-check {
-    color: #5f2eed; }
-  
-  .price_content_two .price_item .price_btn {
-    border-color: #5f2eed;
-    color: #5f2eed;
-    background: transparent; }
-    .price_content_two .price_item .price_btn:hover {
-      background: #5f2eed;
-      color: #fff; }
-  
-  .price_content_two .price_item:hover {
-    border-color: #dad1f8; }
-  
-  .price_content_three .price_item .tag {
-    background: #5f51fb; }
-  
-  .price_content_three .price_item .p_list li .ti-check {
-    color: #5f51fb; }
-  
-  .price_content_three .price_item .price_btn {
-    border-color: #5f51fb;
-    color: #5f51fb;
-    background: transparent; }
-    .price_content_three .price_item .price_btn:hover {
-      background: #5f51fb;
-      color: #fff; }
-  
-  .price_content_three .price_item:hover {
-    border-color: #dfdcfe; }
+
   
   /*================== call_action_area css ================*/
   .call_action_area {
@@ -184,10 +210,6 @@ section.robot-intro img:hover {
     background-image: -webkit-linear-gradient(180deg, #1786d8 0%, #00aff0 100%);
     background-image: -ms-linear-gradient(180deg, #1786d8 0%, #00aff0 100%);
     z-index: 1;
-    padding-top: 250px;
-    position: relative;
-    overflow: hidden; }
-    .call_action_area:before {
       content: "";
       width: 100%;
       height: 100%;
@@ -227,8 +249,7 @@ section.robot-intro img:hover {
           box-shadow: none; }
 
 /*============== getting_started css =============*/
-.getting_started {
-    background: #f9f9fc; }
+
   
   .getting_started_tab {
     margin: 0px;
@@ -287,7 +308,6 @@ section.robot-intro img:hover {
         border: 1px solid #f4f4f9;
         background-color: white;
         box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
-        padding: 20px; 
     }
         .feats_info .info_head {
           border-bottom: 1px solid #eeebf6;
@@ -485,6 +505,25 @@ text-align: center; }
       background: #F0A33D;;
       box-shadow: 0 0 0 0 rgba(0,0,0,.2);
      }
+
+     .btn_white {
+      font: 500 14px "Poppins", sans-serif;
+      color: #42cda4;
+      background: #fff;
+      border-radius: 3px;
+      padding: 20px 30px;
+      border: 1px solid #42cda4;
+      box-shadow: 0 5px 5px 0 rgba(0,0,0,.2);
+      /* margin-top: 50px; */
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: all 0.3s linear;
+      cursor: pointer;
+      display: inline-block; }
+      .btn_white:hover {
+        color: #42cda4;
+        box-shadow: 0 0 0 0 rgba(0,0,0,.2);
+       }
   
   .agency_banner_btn {
     font: 500 14px "Poppins", sans-serif;
@@ -922,7 +961,7 @@ text-align: center; }
     transform: translateY(0px); }
 
 .price_content .price_item {
-  text-align: center;
+  
   background-color: white;
   box-shadow: 0px 4px 6px 0px rgba(0, 11, 40, 0.1);
   padding: 50px 50px 40px;
@@ -930,7 +969,7 @@ text-align: center; }
   position: relative;
   overflow: hidden;
   transition: all 0.2s linear;
-  cursor: pointer; }
+  }
   .price_content .price_item .tag {
     position: absolute;
     font: 400 14px "Poppins", sans-serif;
@@ -974,7 +1013,7 @@ text-align: center; }
     color: #00aff0;
     border-color: #00aff0;
     padding: 0px 36px; }
-    .price_content .price_item .price_btn:hover {
+    /* .price_content .price_item .price_btn:hover {
       color: #fff;
       background: #00aff0; }
   .price_content .price_item.cons:hover {
@@ -982,7 +1021,7 @@ text-align: center; }
     box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.14); }
     .price_content .price_item.pros:hover {
       border-color: #42cda4;
-      box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.14); }
+      box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.14); } */
 
 
   .testimonial {
@@ -1165,10 +1204,24 @@ figure.snip1192 .author h5 span {
         color: #677294;
         transition: color 0.5s ease 0s; }
       .design_tab .nav-item .nav-link.active {
-        background-color: #42cda4; }
+        background-color: #f8f8f8;
+      border-bottom: 1px solid #dedede; }
         .design_tab .nav-item .nav-link.active h5, .design_tab .nav-item .nav-link.active p {
-          color: #fff; }
+          color: #111;}
+    .design_tab_area .tab-content {
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #dedede;
+      padding: 20px;
+      margin-left: -30px;
+}
 
+.design_tab_area .tab-content h2 {
+  color: #111;
+}
+
+.design_tab_area .tab-content p {
+  color: #111;
+}
 .tab-content .tab-pane .tab_img img {
   transform: translateX(20px);
   transition: all 0.3s linear;
@@ -1182,7 +1235,12 @@ figure.snip1192 .author h5 span {
   padding-left: 120px;
   max-width: 100%; }
 
-
+  h5 span {
+    font-size: 3rem;
+    position: relative;
+    top: 12px;
+    left: -25px;
+}
 
   /*============== agency_featured_area css =============*/
 .agency_featured_area {
@@ -1368,32 +1426,20 @@ figure.snip1192 .author h5 span {
   font-size: 24px
 }
 
-.image-list__item {
-  position: relative;
-  display: block;
-  height: 100%;
-  padding: 40px;
-  text-align: center;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 3px 7px 0 rgba(0,0,0,.1);
-  border-left: 4px solid;
+/* Alternative Robots */
+
+.alt_link {
+  color: #111;
+  /* border-bottom: 1px solid; */
 }
 
-.image-list__item img {
-  width: auto;
-  max-height: 60px;
-  margin-bottom: 10px
+.alt_link:hover {
+  border-bottom: none;
+  text-decoration: none;
 }
 
-.image-list__item span {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 100%;
-  color: initial
+.card-img-top {
+  border-bottom: 1px solid #eee;
 }
 
 
