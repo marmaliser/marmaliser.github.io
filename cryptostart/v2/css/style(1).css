@@ -1,0 +1,113 @@
+.exchange_info_widget {
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	padding: 20px;
+	font-size: 15px;
+}
+
+.exchange_info_widget p {
+	margin-bottom: 0;
+}
+
+.exchange_info_widget .exchange__logo-image {
+	width: 100%;
+	height: auto;
+}
+
+.exchange_info_widget .widget_section {
+	margin-bottom: 37px;
+}
+
+.exchange_info_widget .widget_section .inner_heading {
+	font-weight: bold;
+	margin-bottom: 15px;
+	position: relative;
+	cursor: pointer;
+}
+
+.exchange_info_widget .widget_section .inner_heading:after {
+	content: '\f106';
+	font-family: FontAwesome;
+	display: inline-block;
+	position: absolute;
+	font-size: 18px;
+	color: #bdbdbd;
+	right: 0px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+					transform: translateY(-50%);
+}
+
+.exchange_info_widget .widget_section .inner_heading.collapsed:after {
+	-webkit-transform: translateY(-50%) rotate(180deg);
+			-ms-transform: translateY(-50%) rotate(180deg);
+					transform: translateY(-50%) rotate(180deg);
+}
+
+.exchange_info_widget .widget_section .exhange__cryptocurrency_icon-link {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.exchange_info_widget .widget_section .exhange__cryptocurrency_icon-link:hover .exhange__cryptocurrency_icon {
+	-webkit-box-shadow: 0px 0px 15px -5px #000;
+					box-shadow: 0px 0px 15px -5px #000;
+}
+
+.exchange_info_widget .widget_section .exhange__cryptocurrency_icon {
+	border-radius: 50%;
+	margin-bottom: 5px;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.exchange_info_widget .widget_section .item__row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+					justify-content: space-between;
+}
+
+.exchange_info_widget .widget_section .item__row .label {
+	color: #bdbdbd;
+}
+
+.exchange_info_widget .widget_section .item__row .value {
+	text-align: right;
+}
+
+.exchange_info_widget .eafl-link {
+	display: inline-block;
+	border-radius: 4px;
+	width: 100%;
+	padding: 16px 32px;
+	position: relative;
+	color: #272727;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #ffcc00;
+}
+
+.exchange_info_widget .eafl-link:after {
+	content: '\f105';
+	display: inline-block;
+	font-family: FontAwesome;
+	position: absolute;
+	right: 19px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+					transform: translateY(-50%);
+}
+
+.exchange_info_widget .eafl-link:hover {
+	text-decoration: none;
+	background-color: #ffd11a;
+}
+
+/*# sourceMappingURL=style.css.map */
